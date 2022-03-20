@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4002E4D2295B4DE00B1AE77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E43C5F082283799F00889B9C /* main.cpp */; };
+		E43C5F1522837A5300889B9C /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C5F1022837A5300889B9C /* sfml-window.framework */; };
+		E43C5F1622837A5300889B9C /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C5F1122837A5300889B9C /* sfml-graphics.framework */; };
+		E43C5F1722837A5300889B9C /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C5F1222837A5300889B9C /* sfml-audio.framework */; };
+		E43C5F1822837A5300889B9C /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C5F1322837A5300889B9C /* sfml-system.framework */; };
+		E43C5F1922837A5300889B9C /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C5F1422837A5300889B9C /* sfml-network.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4002E4B2295B1E900B1AE77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43C5F032283799F00889B9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4002E4F2295B56C00B1AE77 /* MenuPictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MenuPictures; sourceTree = "<group>"; };
+		E4002E522295B56C00B1AE77 /* Ash.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ash.ttf; sourceTree = "<group>"; };
+		E4002E532295B56D00B1AE77 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		E4002E542295B56D00B1AE77 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		E43C5F052283799F00889B9C /* TropicalSnake */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TropicalSnake; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43C5F082283799F00889B9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E43C5F1022837A5300889B9C /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "ExternalLibraries/SFML/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		E43C5F1122837A5300889B9C /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "ExternalLibraries/SFML/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		E43C5F1222837A5300889B9C /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "ExternalLibraries/SFML/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		E43C5F1322837A5300889B9C /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "ExternalLibraries/SFML/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		E43C5F1422837A5300889B9C /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "ExternalLibraries/SFML/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		E43C5F242283836000889B9C /* app_snake.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = app_snake.hpp; sourceTree = "<group>"; };
+		E45340A0229C29C100BC272B /* Snake.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Snake.hpp; path = modul_files/Snake.hpp; sourceTree = "<group>"; };
+		E45340A1229C29C200BC272B /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Menu.hpp; path = modul_files/Menu.hpp; sourceTree = "<group>"; };
+		E45340A2229C29C200BC272B /* BadFruit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BadFruit.hpp; path = modul_files/BadFruit.hpp; sourceTree = "<group>"; };
+		E45340A3229C29C200BC272B /* Utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Utilities.hpp; path = modul_files/Utilities.hpp; sourceTree = "<group>"; };
+		E45340A4229C29C200BC272B /* Fruit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Fruit.hpp; path = modul_files/Fruit.hpp; sourceTree = "<group>"; };
+		E45340A5229C29C200BC272B /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = modul_files/Game.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43C5F022283799F00889B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43C5F1522837A5300889B9C /* sfml-window.framework in Frameworks */,
+				E43C5F1622837A5300889B9C /* sfml-graphics.framework in Frameworks */,
+				E43C5F1722837A5300889B9C /* sfml-audio.framework in Frameworks */,
+				E43C5F1822837A5300889B9C /* sfml-system.framework in Frameworks */,
+				E43C5F1922837A5300889B9C /* sfml-network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E43C5EFC2283799F00889B9C = {
+			isa = PBXGroup;
+			children = (
+				E43C5F072283799F00889B9C /* TropicalSnake */,
+				E43C5F062283799F00889B9C /* Products */,
+				E43C5F0F22837A5300889B9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E43C5F062283799F00889B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43C5F052283799F00889B9C /* TropicalSnake */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43C5F072283799F00889B9C /* TropicalSnake */ = {
+			isa = PBXGroup;
+			children = (
+				E45340A2229C29C200BC272B /* BadFruit.hpp */,
+				E45340A4229C29C200BC272B /* Fruit.hpp */,
+				E45340A5229C29C200BC272B /* Game.hpp */,
+				E45340A1229C29C200BC272B /* Menu.hpp */,
+				E45340A0229C29C100BC272B /* Snake.hpp */,
+				E45340A3229C29C200BC272B /* Utilities.hpp */,
+				E43C5F082283799F00889B9C /* main.cpp */,
+				E4002E522295B56C00B1AE77 /* Ash.ttf */,
+				E4002E542295B56D00B1AE77 /* Images */,
+				E4002E4F2295B56C00B1AE77 /* MenuPictures */,
+				E4002E532295B56D00B1AE77 /* Sounds */,
+				E43C5F242283836000889B9C /* app_snake.hpp */,
+			);
+			path = TropicalSnake;
+			sourceTree = "<group>";
+		};
+		E43C5F0F22837A5300889B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E43C5F1222837A5300889B9C /* sfml-audio.framework */,
+				E43C5F1122837A5300889B9C /* sfml-graphics.framework */,
+				E43C5F1422837A5300889B9C /* sfml-network.framework */,
+				E43C5F1322837A5300889B9C /* sfml-system.framework */,
+				E43C5F1022837A5300889B9C /* sfml-window.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43C5F042283799F00889B9C /* TropicalSnake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43C5F0C2283799F00889B9C /* Build configuration list for PBXNativeTarget "TropicalSnake" */;
+			buildPhases = (
+				E43C5F012283799F00889B9C /* Sources */,
+				E43C5F022283799F00889B9C /* Frameworks */,
+				E43C5F032283799F00889B9C /* CopyFiles */,
+				E4002E4B2295B1E900B1AE77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TropicalSnake;
+			productName = TropicalSnake;
+			productReference = E43C5F052283799F00889B9C /* TropicalSnake */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43C5EFD2283799F00889B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nick Popyk";
+				TargetAttributes = {
+					E43C5F042283799F00889B9C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E43C5F002283799F00889B9C /* Build configuration list for PBXProject "TropicalSnake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E43C5EFC2283799F00889B9C;
+			productRefGroup = E43C5F062283799F00889B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43C5F042283799F00889B9C /* TropicalSnake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43C5F012283799F00889B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4002E4D2295B4DE00B1AE77 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E43C5F0A2283799F00889B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E43C5F0B2283799F00889B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E43C5F0D2283799F00889B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/ExternalLibraries/SFML/include",
+					"${SRCROOT}/include/TropicalSnake/executive_files",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E43C5F0E2283799F00889B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/ExternalLibraries/SFML/include",
+					"${SRCROOT}/include/TropicalSnake/executive_files",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43C5F002283799F00889B9C /* Build configuration list for PBXProject "TropicalSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43C5F0A2283799F00889B9C /* Debug */,
+				E43C5F0B2283799F00889B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43C5F0C2283799F00889B9C /* Build configuration list for PBXNativeTarget "TropicalSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43C5F0D2283799F00889B9C /* Debug */,
+				E43C5F0E2283799F00889B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43C5EFD2283799F00889B9C /* Project object */;
+}
